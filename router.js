@@ -1,9 +1,13 @@
 const { argv } = require('yargs');
 
 let objeto = {
-    "Tabla del": argv.m
+    "Multiplicando":"1",
+    "Multiplicador":"2",
+    "Producto":"Resultado",
+    "Limite":"10"
 }
 
+/*
 let yargs = require('yargs')
     .option('multiplicando',{alias:'m', type:'number'})
     .option('multiplicando',{alias:'m2', type:'number'})
@@ -94,6 +98,7 @@ let yargs = require('yargs')
             throw 'El valor deber ser mayor a: 0 (Cero)'
         }
     })
+*/
 
 function principal(req, res){
     res.writeHead(200,{'Content-Type':'text/plain'})
