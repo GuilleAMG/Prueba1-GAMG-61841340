@@ -70,13 +70,22 @@ function defo(req, res){
 }
 
 module.exports={
-    index,
-    empleado,
+    principal,
+    tabla1,
+    tabla2,
+    tabla3,
+    tabla4,
+    tabla5,
+    tabla6,
+    tabla7,
+    tabla8,
+    tabla9,
+    tabla10,
     info,
     defo
 }
 
-const yargs = require('yargs')
+/*const yargs = require('yargs')
     .option('saludo',{type:'string'})
     .option('valor',{alias:'v', type:'number'})
     .check((argv,options)=>{
@@ -90,4 +99,4 @@ const yargs = require('yargs')
         }
     })
 
-console.log(yargs.argv)
+console.log(yargs.argv)*/
