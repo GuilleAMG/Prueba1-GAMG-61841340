@@ -1,0 +1,11 @@
+{
+  "name": "prueba1",
+  "version": "0.0.1",
+  "description": "Prueba de Semana 3 en Programacion 4",
+  "main": "principal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillermo Munguia",
+  "license": "ISC"
+}
